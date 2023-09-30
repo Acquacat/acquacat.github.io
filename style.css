@@ -6,8 +6,8 @@ body {
 
 img {
     align-self: center;
-    width: 200;
-    height: 200;
+    width: 130;
+    height: 130;
 }
 
 .topnav {
@@ -59,7 +59,8 @@ img {
   }
   
 .funnybutton {
-    color: #191970;
+    background-color: #191970;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
