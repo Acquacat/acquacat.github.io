@@ -15,23 +15,13 @@ img {
     overflow: hidden;
   }
   
-  .topnav a {
+  .topnav {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
   }
  
   body, html {
@@ -77,8 +67,8 @@ img {
   }
 
 .funnybutton:hover {
-    background-color: #ddd;
-    color: rgb(55, 11, 186);
+    background-color: #191970;
+    color: white;
 }
 
 .funnybutton:active {
