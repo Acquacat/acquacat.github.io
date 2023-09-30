@@ -40,7 +40,7 @@ img {
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("acquacat.png");
   
-    height: 50%;
+    height: 100%;
   
     background-position: center;
     background-repeat: no-repeat;
@@ -57,3 +57,20 @@ img {
     color: white;
   }
   
+.funnybutton button{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.funnybutton button:hover {
+    background-color: #ddd;
+    color: rgb(55, 11, 186);
+}
+
+.funnybutton button:active {
+    background-color: #04AA6D;
+    color: white;
+}
