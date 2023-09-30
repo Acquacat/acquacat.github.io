@@ -48,7 +48,7 @@ img {
     color: white;
   }
 
-  .funnybutton button {
+  .funnybutton {
     background-color: #191970;
     color: white;
     text-align: center;
@@ -57,12 +57,12 @@ img {
     font-size: 17px;
   }
 
-.funnybutton:hover button:hover {
+.funnybutton:hover {
     background-color: #191970;
     color: white;
 }
 
-.funnybutton:active button:active{
+.funnybutton:active {
     background-color: #04AA6D;
     color: white;
 }
