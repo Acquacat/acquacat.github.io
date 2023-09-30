@@ -66,12 +66,12 @@ img {
     font-size: 17px;
   }
 
-.funnybutton:hover {
+.funnybutton:hover button:hover {
     background-color: #191970;
     color: white;
 }
 
-.funnybutton:active {
+.funnybutton:active button:active{
     background-color: #04AA6D;
     color: white;
 }
