@@ -17,9 +17,8 @@ body {
 
 
 .center {
-    width: 960px;
-    margin: auto;
-    padding: 6px;
+    float: left;
+    text-align: left;
 }
 
 img {
@@ -28,8 +27,8 @@ img {
 } 
 
 .clicker {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     float: right;
     text-align: right;
     font-size: 40px;
@@ -38,10 +37,10 @@ img {
 .clickbutton {
     background-color: aqua;
     background-image: url(bingas.png);
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     background-position: center;
-    background-size: 500px 500px;
+    background-size: 300px 300px;
     background-repeat: no-repeat;
 }
 
