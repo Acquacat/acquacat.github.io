@@ -1,7 +1,8 @@
 var click = 0; 
 var c = document.getElementById("click");
 function hi() {
-    click+=1;
+    click++;
+    alert("click = " + click);
     c.innerHTML = click;
 }
 function reset() {
