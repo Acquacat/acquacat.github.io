@@ -4,7 +4,7 @@ var c = document.getElementById("click");
 function hi() {
     click++;
     alert("click = " + click);
-    c.innerHTML = click;
+    c.innerText = click;
 }
 function reset() {
     click = 0;
