@@ -1,12 +1,4 @@
-var click = 0; 
-var c = document.getElementById("click");
-
-function hi() {
-    click++;
-    alert("click = " + click);
-    c.innerHTML = click;
-}
-function reset() {
-    click = 0;
-    c.innerHTML = click;
-}
+function play() {
+    var audio = new Audio('cat-rave.mp3');
+    audio.play();
+  }  

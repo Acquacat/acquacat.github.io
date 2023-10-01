@@ -27,21 +27,22 @@ img {
 } 
 
 .clicker {
-    width: 400px;
-    height: 400px;
-    float: center;
-    text-align: center;
+    width: 250px;
+    height: 250px;
+    float: right;
+    text-align: right;
     font-size: 40px;
 }
 
 .clickbutton {
     background-color: aqua;
     background-image: url("bingas.png");
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     background-position: center;
-    background-size: 400px 400px;
+    background-size: 250px 250px;
     background-repeat: no-repeat;
+    font-size: 40px;
 }
 
   .funnybutton {
