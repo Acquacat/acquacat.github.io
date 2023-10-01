@@ -2,9 +2,16 @@
     <head>
         <title>Acqua</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
-        <script type="text/javascript" src="clicker.js"></script>
     </head>
     <body>
+
+        <script>
+            function play() {
+              var audio = document.getElementById("audio");
+              audio.play();
+            }
+          </script>
+
           <div class="background">
             <div class="center">
               <h1>Hiya, I'm Acqua!</h1>
@@ -16,8 +23,11 @@
               <img src="./amongus.gif">
             </div>
             <div class="clicker">
-                <button onclick="play()" id="demo" class="clickbutton">boop</button>
+                <input type="button" value="PLAY" onclick="play()" class="clickbutton">
+                <audio id="audio" src="cat-rave.mp3"></audio>
             </div>
           </div>
     </body>
 </html>
+
+<button onclick="play()" id="demo" class="clickbutton">boop</button>
