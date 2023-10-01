@@ -28,6 +28,9 @@ img {
 }
 
 .clicker {
+    width: 960px;
+    margin: auto;
+    padding: 6px;
     text-align: right;
     float: right;
 }
