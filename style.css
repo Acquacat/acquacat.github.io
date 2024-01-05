@@ -57,7 +57,7 @@ img {
     background-image: url("meow.png");
     width: 110px;
     height: 110px;
-    background-position: center;
+    background-position: left;
     background-size: 250px 250px;
     background-repeat: no-repeat;
     font-size: 40px;
