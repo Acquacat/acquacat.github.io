@@ -31,6 +31,12 @@ img {
     text-align: right;
 }
 
+.center {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
 .clicker {
     width: 250px;
     height: 250px;
