@@ -16,7 +16,7 @@ body {
 
 
 
-.center {
+.left {
     float: left;
     text-align: left;
 }
@@ -25,6 +25,11 @@ img {
     width: 270px;
     height: 270px;
 } 
+
+.right {
+    float: right;
+    text-align: right;
+}
 
 .clicker {
     width: 250px;
